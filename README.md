@@ -2,6 +2,10 @@
 ## Segunda entrega del curso Desarrollo Web en Coderhouse
 ### Alumno: Cesar Aracena
 
+---
+
+### Aspecto general
+
 #### Consigna
 * Hacer entrega del proyecto (dos páginas a elección) adaptado a la vista mobile y la vista desktop. Para generar un diseño responsive utilizar el Grid system de Bootstrap.
 * La entrega se deberá cargar a un repositorio de GitHub público.

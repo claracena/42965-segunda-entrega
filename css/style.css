@@ -1,4 +1,125 @@
+/* GENERAL */
 * {
     box-sizing: border-box;
 }
 
+main {
+    height: calc(100vh - 50px);
+}
+
+body, html {
+    height: 100vh;
+    color: #CCC5B9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    height: 50px;
+}
+
+/* FONDO COVER */
+
+.bg-fullpage {
+    height: 100vh;
+    background-image: url("../assets/img/bg-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVEGACION SUPERIOR */
+
+nav {
+    padding-top: 35px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #CCC5B9;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:link,
+.navbar-brand:hover, 
+.navbar-brand:visited,
+.navbar-brand:active {
+    text-decoration: none;
+    color: #CCC5B9;
+}
+
+.navbar {
+    padding: 10px 0;
+    background-color: #141414;
+}
+
+.navbar .navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-nav {
+    padding-top: 05px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    color: #CCC5B9;
+    font-size: 0.9rem;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #FFA640;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #E8EDED;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,64, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,166,64);
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse{
+        border-radius: 8px;
+        padding: 0 10px;
+        background-color: #403D39;
+    }  
+}
+@media (min-width: 768px) {
+    .navbar-collapse{
+        background-color: unset;
+    }  
+}
+
+/* PRINCIPAL / MAIN */
+
+main .container-fluid div {
+    text-transform: uppercase;
+}
+
+.index-main-name {
+    font-size: 3rem;
+    border-bottom: 2px #FFA640 solid;
+    letter-spacing: 2px;
+}
+
+.index-main-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

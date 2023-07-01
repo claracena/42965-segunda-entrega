@@ -4,7 +4,8 @@
 }
 
 main {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 130px);
+    margin-top: 60px;
 }
 
 body, html {
@@ -23,7 +24,7 @@ footer {
 
 .bg-fullpage {
     height: 100vh;
-    background-image: url("../assets/img/bg-01.jpg");
+    background-image: url("../assets/img/bg-06.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,6 +117,21 @@ nav {
 
 .about-me-text {
     font-size: 1rem;
+}
+
+.contact-me form input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #FFFCF2;
+    line-height: 1.5rem;
+    padding: 10px 10px;
+}
+
+.contact-me form textarea {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #FFFCF2;
+    padding: 10px 10px;
 }
 
 /* FOOTER */
